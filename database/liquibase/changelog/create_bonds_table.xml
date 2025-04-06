@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<databaseChangeLog
+        xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog
+                        http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-3.10.xsd">
+
+    <changeSet id="1" author="your_name">
+        <createTable tableName="bonds">
+            <column name="id" type="INTEGER" autoIncrement="true">
+                <constraints primaryKey="true" nullable="false"/>
+            </column>
+            <column name="bond_name" type="VARCHAR(255)">
+                <constraints nullable="true" />
+            </column>
+            <column name="issuer" type="VARCHAR(255)">
+                <constraints nullable="true" />
+            </column>
+            <column name="purchase_date" type="DATE">
+                <constraints nullable="true" />
+            </column>
+            <column name="quantity" type="INTEGER">
+                <constraints nullable="true" />
+            </column>
+            <column name="purchase_price" type="DECIMAL(10,2)">
+                <constraints nullable="true" />
+            </column>
+        </createTable>
+    </changeSet>
+
+</databaseChangeLog>

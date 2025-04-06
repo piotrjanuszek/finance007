@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<databaseChangeLog
+        xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog
+                        http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-3.10.xsd">
+
+    <changeSet id="2" author="thebigboss">
+        <insert tableName="bonds">
+            <column name="bond_name" value="33/11" />
+            <column name="issuer" value="obligcje skarbowe" />
+            <column name="purchase_date" valueDate="2023-11-22" />
+            <column name="quantity" value="5" />
+            <column name="purchase_price" value="100.00" />
+        </insert>
+        <insert tableName="bonds">
+            <column name="bond_name" value="33/12" />
+            <column name="issuer" value="obligcje skarbowe" />
+            <column name="purchase_date" valueDate="2023-11-22" />
+            <column name="quantity" value="5" />
+            <column name="purchase_price" value="100.00" />
+        </insert>
+        <insert tableName="bonds">
+            <column name="bond_name" value="34/01" />
+            <column name="issuer" value="obligcje skarbowe" />
+            <column name="purchase_date" valueDate="2023-11-22" />
+            <column name="quantity" value="5" />
+            <column name="purchase_price" value="100.00" />
+        </insert>
+        <insert tableName="bonds">
+            <column name="bond_name" value="34/02" />
+            <column name="issuer" value="obligcje skarbowe" />
+            <column name="purchase_date" valueDate="2023-11-22" />
+            <column name="quantity" value="5" />
+            <column name="purchase_price" value="100.00" />
+        </insert>
+        <insert tableName="bonds">
+            <column name="bond_name" value="34/03" />
+            <column name="issuer" value="obligcje skarbowe" />
+            <column name="purchase_date" valueDate="2023-11-22" />
+            <column name="quantity" value="5" />
+            <column name="purchase_price" value="100.00" />
+        </insert>
+        <insert tableName="bonds">
+            <column name="bond_name" value="34/04" />
+            <column name="issuer" value="obligcje skarbowe" />
+            <column name="purchase_date" valueDate="2023-11-22" />
+            <column name="quantity" value="5" />
+            <column name="purchase_price" value="100.00" />
+        </insert>
+        <insert tableName="bonds">
+            <column name="bond_name" value="34/05" />
+            <column name="issuer" value="obligcje skarbowe" />
+            <column name="purchase_date" valueDate="2023-11-22" />
+            <column name="quantity" value="5" />
+            <column name="purchase_price" value="100.00" />
+        </insert>
+        <insert tableName="bonds">
+            <column name="bond_name" value="34/06" />
+            <column name="issuer" value="obligcje skarbowe" />
+            <column name="purchase_date" valueDate="2023-11-22" />
+            <column name="quantity" value="5" />
+            <column name="purchase_price" value="100.00" />
+        </insert>
+        <insert tableName="bonds">
+            <column name="bond_name" value="34/07" />
+            <column name="issuer" value="obligcje skarbowe" />
+            <column name="purchase_date" valueDate="2023-11-22" />
+            <column name="quantity" value="5" />
+            <column name="purchase_price" value="100.00" />
+        </insert>
+        <insert tableName="bonds">
+            <column name="bond_name" value="34/08" />
+            <column name="issuer" value="obligcje skarbowe" />
+            <column name="purchase_date" valueDate="2023-11-22" />
+            <column name="quantity" value="5" />
+            <column name="purchase_price" value="100.00" />
+        </insert>
+        <insert tableName="bonds">
+            <column name="bond_name" value="34/09" />
+            <column name="issuer" value="obligcje skarbowe" />
+            <column name="purchase_date" valueDate="2023-11-22" />
+            <column name="quantity" value="5" />
+            <column name="purchase_price" value="100.00" />
+        </insert>
+    
+    </changeSet>
+
+</databaseChangeLog>
